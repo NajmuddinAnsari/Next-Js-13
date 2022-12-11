@@ -1,6 +1,7 @@
 import Head from 'next/head'
+import { useState, useSyncExternalStore } from 'react'
 
-export default function Home() {
+export default function Home() {  
   return (
     <div>
       <Head>
@@ -10,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main >
-       <h1 className='bg-red-500'>how is it going</h1>
+       
       </main>
 
       <footer >
